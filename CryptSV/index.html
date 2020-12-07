@@ -86,8 +86,8 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Decrypt Text</h4>
-                             <textarea name="decrypt-text" id="decrypt-form" class="decrypt-letter" cols="30" rows="6"></textarea>
-                             <a class="btn-solid-lg page-scroll" href="#services">Decrypt</a>
+                             <textarea name="decrypt-text" id="decrypt-form" class="decrypt-letter" cols="22" rows="6"></textarea>
+                             <a class="btn-solid-lg page-scroll" href="#services" onclick="valueTextArea()">Decrypt</a>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -96,7 +96,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Text =></h4>
-                            <p>Text</p>
+                            <p id="text-decrypted"></p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -150,5 +150,6 @@
     <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script defer src="js/crypto-textarea.js"></script> 
 </body>
 </html>
